@@ -22,6 +22,17 @@ import GhelaPng from "../../assets/landing_page/ghela.jpg";
 import AdePng from "../../assets/landing_page/dea.jpg";
 import Features from "../features/Features";
 
+// * new div: "requirements"
+// image and 7 icons
+import requirementImage from "../../assets/landing_page/requirementImage.png";
+import requirementIcon1 from "../../assets/landing_page/requirementIcon_1.svg";
+import requirementIcon2 from "../../assets/landing_page/requirementIcon_2.svg";
+import requirementIcon3 from "../../assets/landing_page/requirementIcon_3.svg";
+import requirementIcon4 from "../../assets/landing_page/requirementIcon_4.svg";
+import requirementIcon5 from "../../assets/landing_page/requirementIcon_5.svg";
+import requirementIcon6 from "../../assets/landing_page/requirementIcon_6.svg";
+import requirementIcon7 from "../../assets/landing_page/requirementIcon_7.svg";
+
 export interface HomePageProps {
   className?: string;
 }
@@ -31,10 +42,10 @@ export interface HomePageProps {
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
 export const HomePage = ({ className }: HomePageProps) => {
-
-  const linkedinClick = (link: string) => (event: React.MouseEvent<HTMLImageElement>) => {
-    window.location.href = link;
-};
+  const linkedinClick =
+    (link: string) => (event: React.MouseEvent<HTMLImageElement>) => {
+      window.location.href = link;
+    };
 
   return (
     <div className={classNames(styles.root, className)}>
@@ -50,7 +61,6 @@ export const HomePage = ({ className }: HomePageProps) => {
           <Button buttonText="Get Started" />
         </div>
       </div>
-
       <div className={styles["cards-container"]}>
         <div className={styles.cards}>
           <div className={styles.header}>
@@ -155,6 +165,59 @@ export const HomePage = ({ className }: HomePageProps) => {
             <h2 className={styles.h2}>30%</h2>
             <p className={styles.p}>Success Rate</p>
           </div>
+        </div>
+      </div>
+
+      <div className={styles.requirements}>
+        <img
+          src={requirementImage}
+          alt="requirement illustration image"
+          className={styles.requirementsImage}
+        />
+        <div className={styles.requirementsText}>
+          <h1>We look for the best Startups in Africa. Are you one of them?</h1>
+          <p>
+            We will launch our Matching Platform this year. For that, we are
+            looking for the best impact startups in Africa. In the end of this
+            year we will invite the best Applicants to our EarthMates Gathering
+            event in Berlin - fully sponsored.
+          </p>
+
+          <div className={styles.criteria}>
+            <p>You can apply if you fulfill these criteria:</p>
+            <div className={styles.criterion}>
+              <img src={requirementIcon1} alt="icon" />
+              <p>You must be registered.</p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon2} alt="icon" />
+              <p>You must fulfill some SDGs (Sustainable Development Goals).</p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon3} alt="icon" />
+              <p>Measurable impact should be embodied in your strategy.</p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon4} alt="icon" />
+              <p>You must solve real-world problems.</p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon5} alt="icon" />
+              <p>You must have solid financials.</p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon6} alt="icon" />
+              <p>
+                You should have a minimum viable product (MVP) ready to
+                showcase.
+              </p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon7} alt="icon" />
+              <p>You are a pre-seed or seed stage startup</p>
+            </div>
+          </div>
+          <Button buttonText="Apply Now" />
         </div>
       </div>
 
@@ -339,7 +402,14 @@ export const HomePage = ({ className }: HomePageProps) => {
                   <h1 className={styles.h1}>Marco Maiworm</h1>
                   <p className={styles.p}>CEO and Network Developer</p>
                 </div>
-                <img src={LinkedinIcon} alt="linkedin"  style={{ cursor: 'pointer' }}  onClick={linkedinClick("https://www.linkedin.com/in/marco-maiworm/")}/>
+                <img
+                  src={LinkedinIcon}
+                  alt="linkedin"
+                  style={{ cursor: "pointer" }}
+                  onClick={linkedinClick(
+                    "https://www.linkedin.com/in/marco-maiworm/"
+                  )}
+                />
               </div>
             </div>
             <div className={styles.member}>
@@ -349,7 +419,14 @@ export const HomePage = ({ className }: HomePageProps) => {
                   <h1 className={styles.h1}>Mohamed Karsan</h1>
                   <p className={styles.p}>Africa Startup Relations</p>
                 </div>
-                <img src={LinkedinIcon} alt="linkedin" style={{ cursor: 'pointer' }}  onClick={linkedinClick("https://www.linkedin.com/in/mohamed-karsan-1042992ab/")}/>
+                <img
+                  src={LinkedinIcon}
+                  alt="linkedin"
+                  style={{ cursor: "pointer" }}
+                  onClick={linkedinClick(
+                    "https://www.linkedin.com/in/mohamed-karsan-1042992ab/"
+                  )}
+                />
               </div>
             </div>
             <div className={styles.member}>
@@ -359,7 +436,14 @@ export const HomePage = ({ className }: HomePageProps) => {
                   <h1 className={styles.h1}>Jacopo Ceravolo</h1>
                   <p className={styles.p}>CTO, Full Stack and AI Developer</p>
                 </div>
-                <img src={LinkedinIcon} alt="linkedin" style={{ cursor: 'pointer' }}  onClick={linkedinClick("https://www.linkedin.com/in/jacopo-ceravolo/")}/>
+                <img
+                  src={LinkedinIcon}
+                  alt="linkedin"
+                  style={{ cursor: "pointer" }}
+                  onClick={linkedinClick(
+                    "https://www.linkedin.com/in/jacopo-ceravolo/"
+                  )}
+                />
               </div>
             </div>
             <div className={styles.member}>
@@ -369,7 +453,14 @@ export const HomePage = ({ className }: HomePageProps) => {
                   <h1 className={styles.h1}>Filipe Bertolucci</h1>
                   <p className={styles.p}>Frontend Developer</p>
                 </div>
-                <img src={LinkedinIcon} alt="linkedin" style={{ cursor: 'pointer' }}  onClick={linkedinClick("https://www.linkedin.com/in/filipe-bertolucci-104374241/")}/>
+                <img
+                  src={LinkedinIcon}
+                  alt="linkedin"
+                  style={{ cursor: "pointer" }}
+                  onClick={linkedinClick(
+                    "https://www.linkedin.com/in/filipe-bertolucci-104374241/"
+                  )}
+                />
               </div>
             </div>
           </div>
@@ -381,7 +472,14 @@ export const HomePage = ({ className }: HomePageProps) => {
                   <h1 className={styles.h1}>Francesco Ghelardi</h1>
                   <p className={styles.p}>Backend Developer</p>
                 </div>
-                <img src={LinkedinIcon} alt="linkedin" style={{ cursor: 'pointer' }}  onClick={linkedinClick("https://www.linkedin.com/in/francesco-ghelardi-2ba4a920b/")}/>
+                <img
+                  src={LinkedinIcon}
+                  alt="linkedin"
+                  style={{ cursor: "pointer" }}
+                  onClick={linkedinClick(
+                    "https://www.linkedin.com/in/francesco-ghelardi-2ba4a920b/"
+                  )}
+                />
               </div>
             </div>
             <div className={styles.member}>
@@ -391,7 +489,14 @@ export const HomePage = ({ className }: HomePageProps) => {
                   <h1 className={styles.h1}>Adedigba Adediwura</h1>
                   <p className={styles.p}>UX/UI Designer</p>
                 </div>
-                <img src={LinkedinIcon} alt="linkedin" style={{ cursor: 'pointer' }}  onClick={linkedinClick("https://www.linkedin.com/in/adedigba-adediwura-a2b202227/")}/>
+                <img
+                  src={LinkedinIcon}
+                  alt="linkedin"
+                  style={{ cursor: "pointer" }}
+                  onClick={linkedinClick(
+                    "https://www.linkedin.com/in/adedigba-adediwura-a2b202227/"
+                  )}
+                />
               </div>
             </div>
             <div className={styles.member}>
@@ -401,7 +506,14 @@ export const HomePage = ({ className }: HomePageProps) => {
                   <h1 className={styles.h1}>Daniel Ujoh</h1>
                   <p className={styles.p}>Costumer Relationships</p>
                 </div>
-                <img src={LinkedinIcon} alt="linkedin" style={{ cursor: 'pointer' }}  onClick={linkedinClick("https://www.linkedin.com/in/ujohdaniel1696211aa/")}/>
+                <img
+                  src={LinkedinIcon}
+                  alt="linkedin"
+                  style={{ cursor: "pointer" }}
+                  onClick={linkedinClick(
+                    "https://www.linkedin.com/in/ujohdaniel1696211aa/"
+                  )}
+                />
               </div>
             </div>
           </div>

@@ -12,7 +12,8 @@ export interface ButtonProps {
 }
 
 const defaultClick = () => {
-  window.location.href = "/maintenance";
+  window.location.href =
+    "https://airtable.com/app4cbS0gpcBdM29E/paghPNjn40HAbnLMR/form";
 };
 
 export const Button: React.FC<ButtonProps> = ({
