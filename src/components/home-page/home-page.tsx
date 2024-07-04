@@ -387,7 +387,7 @@ export const HomePage = ({ className }: HomePageProps) => {
           </div>
         </div>
         <div className={styles.team}>
-          <h1 className={styles.h1}>Meet Our Co-Founding team</h1>
+          <h1 className={styles.h1}>Meet Our Team</h1>
           <p className={styles.p}>
             Get to know the passionate individuals behind Earthmates who are
             dedicated to supporting <br />

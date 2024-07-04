@@ -143,6 +143,10 @@ const Features = () => {
           buttonText="Learn More"
           className={styles.learnMore_button}
           color="#2F2B6F"
+          onClick={() => {
+            window.location.href =
+              "https://airtable.com/app4cbS0gpcBdM29E/pagbVdxAymMAqVyAV/form";
+          }}
         />
       </div>
       {/*<div className="tabHeader">
