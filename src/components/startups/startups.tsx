@@ -10,9 +10,9 @@ import BriefcaseIcon from "../../assets/startup_page/briefcase-09.svg";
 import UsergroupIcon from "../../assets/startup_page/user-group.svg";
 import FilevalidationIcon from "../../assets/startup_page/file-validation.svg";
 
-import DesktopIcon from "../../assets/startup_page/desktop.svg";
+import DesktopIcon from "../../assets/dashboard.svg";
 import IconSvg from "../../assets/startup_page/icon.svg";
-import ReviewSvg from "../../assets/startup_page/review.svg";
+import ReviewSvg from "../../assets/startup_page/review1.png";
 
 //mui
 import Accordion from "@mui/material/Accordion";
@@ -84,7 +84,7 @@ export const Startups = ({ className }: StartupsProps) => {
             <button>Transparent and Secure</button>
           </div>
           <div className={styles.container}>
-            <div>
+            <div className={styles.text}>
               <h1 className={styles.h1}>
                 Cutting-Edge Technology for Startup-Investor Connections
               </h1>
@@ -158,13 +158,13 @@ export const Startups = ({ className }: StartupsProps) => {
           </div>
           <div className={styles.text}>
             <h1 className={styles.h1}>
-              “Thanks to Earthmates, I secured funding and strategic
-              partnerships that propelled my startup&apos;s growth. Highly
-              recommended for any tech founder looking to accelerate their
-              journey.”
+              “EarthMates' investment readiness expertise was instrumental in
+              preparing me for my first pre-seed funding journey. Their tailored
+              guidance and support were crucial in connecting my startup to
+              global investors, paving the way for our growth and success.”
             </h1>
             <p className={styles.p}>
-              John Smith, Founder &amp; CEO, Tech Innovations Inc.
+              Ryan Apreala, Founder, Outside Hospitality
             </p>
           </div>
         </div>

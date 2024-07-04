@@ -61,60 +61,6 @@ export const HomePage = ({ className }: HomePageProps) => {
           <Button buttonText="Get Started" />
         </div>
       </div>
-
-      <div className={styles.requirements}>
-        <img
-          src={requirementImage}
-          alt="requirement illustration image"
-          className={styles.requirementsImage}
-        />
-        <div className={styles.requirementsText}>
-          <h1>We look for the best Startups in Africa. Are you one of them?</h1>
-          <p>
-            We will launch our Matching Platform this year. For that, we are
-            looking for the best impact startups in Africa. In the end of this
-            year we will invite the best Applicants to our EarthMates Gathering
-            event in Berlin - fully sponsored.
-          </p>
-
-          <div className={styles.criteria}>
-            <p>You can apply if you fulfill these criteria:</p>
-            <div className={styles.criterion}>
-              <img src={requirementIcon1} alt="icon" />
-              <p>You must be registered.</p>
-            </div>
-            <div className={styles.criterion}>
-              <img src={requirementIcon2} alt="icon" />
-              <p>You must fulfill some SDGs (Sustainable Development Goals).</p>
-            </div>
-            <div className={styles.criterion}>
-              <img src={requirementIcon3} alt="icon" />
-              <p>Measurable impact should be embodied in your strategy.</p>
-            </div>
-            <div className={styles.criterion}>
-              <img src={requirementIcon4} alt="icon" />
-              <p>You must solve real-world problems.</p>
-            </div>
-            <div className={styles.criterion}>
-              <img src={requirementIcon5} alt="icon" />
-              <p>You must have solid financials.</p>
-            </div>
-            <div className={styles.criterion}>
-              <img src={requirementIcon6} alt="icon" />
-              <p>
-                You should have a minimum viable product (MVP) ready to
-                showcase.
-              </p>
-            </div>
-            <div className={styles.criterion}>
-              <img src={requirementIcon7} alt="icon" />
-              <p>You are a pre-seed or seed stage startup</p>
-            </div>
-          </div>
-          <Button buttonText="Apply Now" />
-        </div>
-      </div>
-
       <div className={styles["cards-container"]}>
         <div className={styles.cards}>
           <div className={styles.header}>
@@ -219,6 +165,59 @@ export const HomePage = ({ className }: HomePageProps) => {
             <h2 className={styles.h2}>30%</h2>
             <p className={styles.p}>Success Rate</p>
           </div>
+        </div>
+      </div>
+
+      <div className={styles.requirements}>
+        <img
+          src={requirementImage}
+          alt="requirement illustration image"
+          className={styles.requirementsImage}
+        />
+        <div className={styles.requirementsText}>
+          <h1>We look for the best Startups in Africa. Are you one of them?</h1>
+          <p>
+            We will launch our Matching Platform this year. For that, we are
+            looking for the best impact startups in Africa. In the end of this
+            year we will invite the best Applicants to our EarthMates Gathering
+            event in Berlin - fully sponsored.
+          </p>
+
+          <div className={styles.criteria}>
+            <p>You can apply if you fulfill these criteria:</p>
+            <div className={styles.criterion}>
+              <img src={requirementIcon1} alt="icon" />
+              <p>You must be registered.</p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon2} alt="icon" />
+              <p>You must fulfill some SDGs (Sustainable Development Goals).</p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon3} alt="icon" />
+              <p>Measurable impact should be embodied in your strategy.</p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon4} alt="icon" />
+              <p>You must solve real-world problems.</p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon5} alt="icon" />
+              <p>You must have solid financials.</p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon6} alt="icon" />
+              <p>
+                You should have a minimum viable product (MVP) ready to
+                showcase.
+              </p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon7} alt="icon" />
+              <p>You are a pre-seed or seed stage startup</p>
+            </div>
+          </div>
+          <Button buttonText="Apply Now" />
         </div>
       </div>
 
