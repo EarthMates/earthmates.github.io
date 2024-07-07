@@ -33,6 +33,8 @@ import requirementIcon5 from "../../assets/landing_page/requirementIcon_5.svg";
 import requirementIcon6 from "../../assets/landing_page/requirementIcon_6.svg";
 import requirementIcon7 from "../../assets/landing_page/requirementIcon_7.svg";
 
+import ImpactImagePng from "../../assets/landing_page/impact.svg";
+
 export interface HomePageProps {
   className?: string;
 }
@@ -328,7 +330,36 @@ export const HomePage = ({ className }: HomePageProps) => {
             <img src={MissionImageCombinePng} alt="" className={styles.img} />
           </div>
         </div>
+        <div className={styles.impact}>
+          <div className={styles["impact-text"]}>
+            <h1 className={styles.h1}>What does impact means for us?</h1>
+            <p className={styles.p}>
+              Fulfilling at least 3-5 SDGs lays the foundation for impact.
+              Beyond that, impact means creating a measurable positive social or
+              environmental change through your company's products, services, or
+              operations. Sustainability in that sense means being conscious of
+              the consequences of our actions.
+              <br />
+              <br />
+              We believe Africa has the potential to address global issues such
+              as climate change, loss of biodiversity, and hunger. We are
+              certain that African innovation is essential to solving world
+              problems.
+            </p>
+            <Button
+              buttonText="Register Now"
+              color="#FFFFFF"
+              textColor="#001B2E"
+            />
+          </div>
+          <div className={styles["impact-image"]}>
+            <img src={ImpactImagePng} alt="" />
+          </div>
+        </div>
         <div className={styles.vision}>
+          <div className={styles["vision-image"]}>
+            <img src={VisionImagePng} alt="" />
+          </div>
           <div className={styles["vision-text"]}>
             <h1 className={styles.h1}>Our Vision</h1>
             <p className={styles.p}>
@@ -347,9 +378,6 @@ export const HomePage = ({ className }: HomePageProps) => {
               color="#FFFFFF"
               textColor="#001B2E"
             />
-          </div>
-          <div className={styles["vision-image"]}>
-            <img src={VisionImagePng} alt="" />
           </div>
         </div>
         <div className={styles.values}>
