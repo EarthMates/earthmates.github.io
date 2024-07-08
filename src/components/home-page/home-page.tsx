@@ -56,8 +56,9 @@ export const HomePage = ({ className }: HomePageProps) => {
           WE MATCH GLOBAL INVESTORS WITH AFRICAN IMPACT STARTUPS
         </div>
         <div className={styles.paragraph}>
-          Your sustainable matching platform connects African tech-Startups with
-          global investors to create an impact for the world and unlock profits
+          Your sustainable matching platform that connects African impact
+          Startups with global investors to unlock profits and create impact for
+          the world.
         </div>
         <div className={styles["call-to-action"]}>
           <Button buttonText="Get Started" />
@@ -70,22 +71,23 @@ export const HomePage = ({ className }: HomePageProps) => {
             <div>
               <h1 className={styles.h1}>START UPS</h1>
               <p className={styles.p}>
-                Funding is a challenge, but have you found your EarthMate?
+                Securing funding is a challenge. Have you found your EarthMate?
               </p>
             </div>
           </div>
           <br />
           <p className={styles.paragraph}>
-            Securing funding is a major hurdle for many startups. The journey is
-            filled with potential but finding the right investor often feels
-            like searching in the dark. This is where EarthMates steps in. We
-            simplify the search for funding.
+            Securing funding is a significant challenge for many startups. The
+            journey is full of potential, yet identifying the optimal investor
+            often feels like searching in the dark. This is where EarthMates
+            intervenes. We simplify the search for funding.
           </p>
           <p className={styles.paragraph}>
-            Our platform brings together startups and investors, ensuring you
-            connect with those who share your vision and goals. If you&apos;re
-            looking for funding that aligns with your startup&apos;s potential,
-            EarthMates is here to help. Ready to meet your EarthMate?
+            Our platform facilitates connections between startups and investors,
+            enabling you to engage with those who share your vision and goals.
+            If you are seeking funding that aligns with your startup's
+            potential, EarthMates is here to help. Are you ready to connect with
+            your EarthMate?
           </p>
         </div>
         <div className={styles.cards}>
@@ -94,24 +96,24 @@ export const HomePage = ({ className }: HomePageProps) => {
             <div>
               <h1 className={styles.h1}>INVESTORS</h1>
               <p className={styles.p}>
-                Finding the right Investment in Africa is difficult to find, but
-                have you found your EarthMate?
+                Identifying the optimal investment opportunity in Africa can be
+                challenging. Have you found your EarthMate?
               </p>
             </div>
           </div>
           <br />
           <p className={styles.paragraph}>
-            Finding the right investment in Africa can be tough. The landscape
-            is vast and full of potential, yet pinpointing that perfect
+            Identifying the optimal investment in Africa can be challenging. The
+            landscape is vast and full of potential, yet locating the perfect
             opportunity often feels like searching for a needle in a haystack.
-            That&apos;s where EarthMates comes in. We make the search
-            straightforward and effective.
+            That's where EarthMates can assist. We streamline the search process
+            to ensure it is both straightforward and effective.
           </p>
           <p className={styles.paragraph}>
-            Our platform connects investors with Africa&apos;s most promising
-            startups. If you&apos;re looking for an investment that matches your
-            goals and has a real impact, let EarthMates guide you. Ready to find
-            your match?
+            Our platform facilitates connections between investors and Africa's
+            most promising startups. If you're seeking an investment that aligns
+            your objectives and has a tangible impact, let EarthMates guide you.
+            Are you ready to find your ideal investment match?
           </p>
         </div>
         {/* <div className={styles.cards}>
@@ -177,46 +179,53 @@ export const HomePage = ({ className }: HomePageProps) => {
           className={styles.requirementsImage}
         />
         <div className={styles.requirementsText}>
-          <h1>We look for the best Startups in Africa. Are you one of them?</h1>
+          <h1>
+            We are looking for the most promising startups in Africa. Are you
+            one of them?
+          </h1>
           <p>
-            We will launch our Matching Platform this year. For that, we are
-            looking for the best impact startups in Africa. In the end of this
-            year we will invite the best Applicants to our EarthMates Gathering
-            event in Berlin - fully sponsored.
+            We are happy to announce the imminent launch of our matching
+            platform. To this end, we are seeking the most impactful startups in
+            Africa. By the end of this year EarthMates will extend a fully
+            sponsored invitation to the most promising applicants to attend our
+            EarthMates Gathering event in Berlin.
           </p>
 
           <div className={styles.criteria}>
-            <p>You can apply if you fulfill these criteria:</p>
+            <p>
+              In order to apply, each candidate must fulfill the following
+              criteria:
+            </p>
             <div className={styles.criterion}>
               <img src={requirementIcon1} alt="icon" />
-              <p>You must be registered.</p>
+              <p>you are a registered company</p>
             </div>
             <div className={styles.criterion}>
               <img src={requirementIcon2} alt="icon" />
-              <p>You must fulfill some SDGs (Sustainable Development Goals).</p>
-            </div>
-            <div className={styles.criterion}>
-              <img src={requirementIcon3} alt="icon" />
-              <p>Measurable impact should be embodied in your strategy.</p>
-            </div>
-            <div className={styles.criterion}>
-              <img src={requirementIcon4} alt="icon" />
-              <p>You must solve real-world problems.</p>
-            </div>
-            <div className={styles.criterion}>
-              <img src={requirementIcon5} alt="icon" />
-              <p>You must have solid financials.</p>
-            </div>
-            <div className={styles.criterion}>
-              <img src={requirementIcon6} alt="icon" />
               <p>
-                You should have a minimum viable product (MVP) ready to
-                showcase.
+                you fulfill at least three to five SDG's (Sustainable
+                Development Goals)
               </p>
             </div>
             <div className={styles.criterion}>
+              <img src={requirementIcon3} alt="icon" />
+              <p>your strategy must embody measurable impact</p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon4} alt="icon" />
+              <p>you focus on real-world problems</p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon5} alt="icon" />
+              <p>uou must have solid financials</p>
+            </div>
+            <div className={styles.criterion}>
+              <img src={requirementIcon6} alt="icon" />
+              <p>you have a minimum viable product (MVP) ready to showcase</p>
+            </div>
+            <div className={styles.criterion}>
               <img src={requirementIcon7} alt="icon" />
-              <p>You are a pre-seed or seed stage startup</p>
+              <p>you are a pre-seed or seed stage startup. </p>
             </div>
           </div>
           <Button buttonText="Apply Now" />
@@ -322,8 +331,8 @@ export const HomePage = ({ className }: HomePageProps) => {
         <div className={styles.mission}>
           <h1 className={styles.h1}>Our Mission</h1>
           <p className={styles.p}>
-            We create connections between African leading tech startups and
-            global investors, dedicated to catalyzing social impact and
+            We foster connections between African leading tech startups and
+            global investors, with the objective of catalyzing social impact and
             innovation across Africa.
           </p>
           <div className={styles["mission-image"]}>
@@ -332,19 +341,23 @@ export const HomePage = ({ className }: HomePageProps) => {
         </div>
         <div className={styles.impact}>
           <div className={styles["impact-text"]}>
-            <h1 className={styles.h1}>What does impact means for us?</h1>
+            <h1 className={styles.h1}>
+              What does 'impact' means for EarthMates?
+            </h1>
             <p className={styles.p}>
-              Fulfilling at least 3-5 SDGs lays the foundation for impact.
-              Beyond that, impact means creating a measurable positive social or
-              environmental change through your company's products, services, or
-              operations. Sustainability in that sense means being conscious of
-              the consequences of our actions.
+              At EarthMates we believe that achieving at least three to five
+              SDGs is a fundamental requirement for making a positive impact.
+              Impact can be defined as the creation of a quantifiable positive
+              social or environmental change through the products, services, or
+              operations of a company. In this context, sustainability can be
+              defined as a conscious awareness of the consequences of one's
+              actions.
               <br />
               <br />
-              We believe Africa has the potential to address global issues such
-              as climate change, loss of biodiversity, and hunger. We are
-              certain that African innovation is essential to solving world
-              problems.
+              We believe that Africa has the potential to address global issues
+              such as climate change, loss of biodiversity, and hunger. It is
+              beyond doubt that African innovation is of essential importance
+              when finding solutions to global problems.
             </p>
             <Button
               buttonText="Register Now"
@@ -368,10 +381,10 @@ export const HomePage = ({ className }: HomePageProps) => {
               local and global communities through sustainable innovation.
               <br />
               <br />
-              We dream of a future where African innovation is at the forefront
-              of solutions to the climate crisis and social injustices,
-              supported by a global network of partners working together to
-              create a fairer, more sustainable world
+              We aim to create a future where African innovation is at the
+              forefront of solutions to the climate crisis and social
+              injustices, supported by a global network of partners working
+              together to create a fairer, more sustainable world
             </p>
             <Button
               buttonText="Register Now"
@@ -393,7 +406,7 @@ export const HomePage = ({ className }: HomePageProps) => {
             <div className={styles.card}>
               <h2 className={styles.h1}>Innovation</h2>
               <p className={styles.p}>
-                We value and support breakthrough ideas that draw on African
+                We recognise the value of innovative ideas that draw on African
                 creativity and innovation to develop sustainable solutions to
                 global challenges.
               </p>
@@ -409,7 +422,8 @@ export const HomePage = ({ className }: HomePageProps) => {
             <div className={styles.card}>
               <h2 className={styles.h1}>Empowerment</h2>
               <p className={styles.p}>
-                We want to empower startups to solve their own problems
+                We aim at providing startups with the tools and resources they
+                need to overcome their own challenges.
               </p>
             </div>
           </div>
@@ -417,7 +431,7 @@ export const HomePage = ({ className }: HomePageProps) => {
         <div className={styles.team}>
           <h1 className={styles.h1}>Meet Our Team</h1>
           <p className={styles.p}>
-            Get to know the passionate individuals behind Earthmates who are
+            Get to know the passionate individuals behind EarthMates who are
             dedicated to supporting <br />
             African startups and driving positive change in the entrepreneurial
             ecosystem.
@@ -479,7 +493,7 @@ export const HomePage = ({ className }: HomePageProps) => {
               <div className={styles.description}>
                 <div className={styles.name}>
                   <h1 className={styles.h1}>Filipe Bertolucci</h1>
-                  <p className={styles.p}>Frontend Developer</p>
+                  <p className={styles.p}>Front-End Developer</p>
                 </div>
                 <img
                   src={LinkedinIcon}
@@ -498,7 +512,7 @@ export const HomePage = ({ className }: HomePageProps) => {
               <div className={styles.description}>
                 <div className={styles.name}>
                   <h1 className={styles.h1}>Francesco Ghelardi</h1>
-                  <p className={styles.p}>Backend Developer</p>
+                  <p className={styles.p}>Back-End Developer</p>
                 </div>
                 <img
                   src={LinkedinIcon}
@@ -548,8 +562,8 @@ export const HomePage = ({ className }: HomePageProps) => {
         </div>
       </div>
       <div className={styles["next-step"]}>
-        <h1 className={styles.h1}>Ready to Take the Next Step</h1>
-        <p className={styles.p}>We will help you along the journey ahead</p>
+        <h1 className={styles.h1}>Are you ready for the next step?</h1>
+        <p className={styles.p}>We will help you along the journey!</p>
         <div className={styles["call-to-action"]}>
           <Button buttonText="Get Started" />
         </div>

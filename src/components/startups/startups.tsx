@@ -36,9 +36,9 @@ export const Startups = ({ className }: StartupsProps) => {
           <button>Connect with Investors</button>
           <h1>GET ACCESS TO WORLDWIDE FUNDING WITH EARTHMATES</h1>
           <p>
-            Your sustainable matching platform connects African tech-Startups
-            with global investors to create an impact for the world and unlock
-            profits
+            Your sustainable matching platform that connects African impact
+            Startups with global investors to unlock profits and create impact
+            for the world
           </p>
           <Button buttonText="Start Matching" />
         </div>
@@ -46,7 +46,7 @@ export const Startups = ({ className }: StartupsProps) => {
       </div>
       <div className={styles.home}>
         <div className={styles.features}>
-          <h1 className={styles.h1}>How to get your Startup Journey Started</h1>
+          <h1 className={styles.h1}>How to Get Your Startup Journey Started</h1>
           <p className={styles.p}>
             Explore the Simple Process of Connecting with Investors and Driving
             Your Startup Forward
@@ -133,8 +133,8 @@ export const Startups = ({ className }: StartupsProps) => {
             <h2 className={styles.h1}>Impactful Results</h2>
             <p className={styles.p}>
               We deliver tangible results, securing funding for startups and
-              generating returns for investors, making us the preferred choice
-              for impactful startups in Africa.
+              generating returns for investors, making EarthMates the preferred
+              choice for impactful startups in Africa.
             </p>
           </div>
         </div>
@@ -223,9 +223,9 @@ export const Startups = ({ className }: StartupsProps) => {
               Is there a fee for listing my startup on Earthmates?
             </AccordionSummary>
             <AccordionDetails>
-              Listing your startup on Earthmates is free. We believe in
-              supporting entrepreneurs by providing them a platform to showcase
-              their innovations without any initial costs.
+              The listing of your startup on Earthmates is free of charge. We
+              are committed to providing entrepreneurs with a platform to
+              showcase their innovations without any initial costs.
             </AccordionDetails>
           </Accordion>
           <Accordion>
@@ -247,7 +247,7 @@ export const Startups = ({ className }: StartupsProps) => {
         </div>
       </div>
       <div className={styles.next_steps}>
-        <h1>Ready to Take the Next Step?</h1>
+        <h1>Are you ready to take the next step?</h1>
         <p>Join Earthmates Today and Propel Your Startup Forward!</p>
         <Button buttonText="Register Now" color="#ffff" textColor="#001B2E" />
       </div>

@@ -49,7 +49,7 @@ export const Investors = ({ className }: InvestorsProps) => {
         <div className={styles.features}>
           <h1 className={styles.h1}>Start Your Investment Journey Today</h1>
           <p className={styles.p}>
-            Join our platform today and be part of Africa's thriving startup
+            Join our platform and be part of Africa's thriving startup
             ecosystem.
           </p>
           <div className={styles["features-cards"]}>
@@ -219,12 +219,12 @@ export const Investors = ({ className }: InvestorsProps) => {
               investor?
             </AccordionSummary>
             <AccordionDetails>
-              As an investor using Earthmates, you typically won't encounter any
-              fees for accessing the platform or browsing the startups. However,
-              there might be fees associated with specific investment
-              transactions or additional services offered by Earthmates, so it's
-              essential to review their terms and conditions for any potential
-              costs.
+              As an investor using EarthMates, you will not typically encounter
+              any fees for accessing the platform or browsing the startups.
+              Please note that there may be fees associated with specific
+              investment transactions or additional services offered by
+              EarthMates. Therefore, it is important to review the terms and
+              conditions to identify any potential costs.
             </AccordionDetails>
           </Accordion>
           <Accordion>
@@ -238,23 +238,23 @@ export const Investors = ({ className }: InvestorsProps) => {
               investment opportunities listed on the platform?
             </AccordionSummary>
             <AccordionDetails>
-              Earthmates employs various measures to ensure the quality and
-              legitimacy of the investment opportunities listed on its platform.
-              These measures may include thorough due diligence processes on
-              startups, verification of key information provided by startups,
-              background checks on founders and management teams, screening for
-              compliance with regulatory requirements, and implementing
-              mechanisms for investor feedback and ratings. Additionally,
-              Earthmates may leverage partnerships with trusted organizations,
-              advisors, and industry experts to validate the credibility of
-              listed opportunities.
+              EarthMates employs a range of measures to guarantee the quality
+              and legitimacy of the investment opportunities listed on its
+              platform. These measures may include comprehensive due diligence
+              processes on startups, verification of key information provided by
+              startups, background checks on founders and management teams,
+              screening for compliance with regulatory requirements, and
+              implementing mechanisms for investor feedback and ratings.
+              Furthermore, EarthMates may collaborate with trusted
+              organizations, advisors, and industry experts to verify the
+              credibility of listed opportunities.
             </AccordionDetails>
           </Accordion>
         </div>
       </div>
       <div className={styles.next_steps}>
-        <h1>Ready to Take the Next Step?</h1>
-        <p>Join Earthmates Today and Propel Your Startup Forward!</p>
+        <h1>Are you ready to take the next step?</h1>
+        <p>Join Earthmates Today and Propel Your Investment Forward!</p>
         <Button
           buttonText="Register Now"
           color="#ffff"
