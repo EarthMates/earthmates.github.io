@@ -217,7 +217,7 @@ export const HomePage = ({ className }: HomePageProps) => {
             </div>
             <div className={styles.criterion}>
               <img src={requirementIcon5} alt="icon" />
-              <p>uou must have solid financials</p>
+              <p>you must have solid financials</p>
             </div>
             <div className={styles.criterion}>
               <img src={requirementIcon6} alt="icon" />
@@ -238,11 +238,11 @@ export const HomePage = ({ className }: HomePageProps) => {
         <div className={styles["features-startup"]}>
           <h1 className={styles.h1}>Need Funding?</h1>
           <p className={styles.p}>
-            Earthmates provides a platform for startup founders to connect with
+            EarthMates provides a platform for startup founders to connect with
             a diverse network of investors and access the funding they need to
             scale their ventures. Whether you&apos;re seeking seed funding to
             launch your idea or looking to secure Series A funding for
-            expansion, Earthmates can help you find the right investors to
+            expansion, EarthMates can help you find the right investors to
             support your growth journey.
           </p>
           <div className={styles.list}>
@@ -280,10 +280,10 @@ export const HomePage = ({ className }: HomePageProps) => {
         <div className={styles["features-investor"]}>
           <h1 className={styles.h1}>Looking to invest?</h1>
           <p className={styles.p}>
-            Earthmates offers investors a platform to discover and invest in
+            EarthMates offers investors a platform to discover and invest in
             high-potential African startups poised for growth. Whether
             you&apos;re an angel investor, venture capitalist, or corporate
-            investor, Earthmates provides access to a curated selection of
+            investor, EarthMates provides access to a curated selection of
             investment opportunities across various industries and stages.
           </p>
           <br />

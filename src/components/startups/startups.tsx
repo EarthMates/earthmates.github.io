@@ -75,7 +75,7 @@ export const Startups = ({ className }: StartupsProps) => {
             Innovative Solutions for Africa's Entrepreneurial Frontier
           </h1>
           <p className={styles.p}>
-            Discover How Earthmates is Revolutionizing Startup Success in Africa
+            Discover How EarthMates is Revolutionizing Startup Success in Africa
           </p>
           <div className={styles["display-cards"]}>
             <button>Smart Matching Algorithm</button>
@@ -89,7 +89,7 @@ export const Startups = ({ className }: StartupsProps) => {
                 Cutting-Edge Technology for Startup-Investor Connections
               </h1>
               <p className={styles.p}>
-                Earthmates utilizes a sophisticated matching algorithm that
+                EarthMates utilizes a sophisticated matching algorithm that
                 intelligently pairs startups with compatible investors, ensuring
                 alignment of goals and interests.
               </p>
@@ -102,9 +102,9 @@ export const Startups = ({ className }: StartupsProps) => {
         <div className={styles.header}>
           <img src={IconSvg} alt="" />
           <div>
-            <h1 className={styles.h1}>Discover the Earthmates Difference</h1>
+            <h1 className={styles.h1}>Discover the EarthMates Difference</h1>
             <p className={styles.p}>
-              Reasons why Earthmates stands out as the platform for connecting
+              Reasons why EarthMates stands out as the platform for connecting
               African startups with investors.
             </p>
           </div>
@@ -149,7 +149,7 @@ export const Startups = ({ className }: StartupsProps) => {
           </h1>
           <p className={styles.p}>
             Discover firsthand experiences from tech founders who have
-            transformed their startup journeys with Earthmates.
+            transformed their startup journeys with EarthMates.
           </p>
         </div>
         <div className={styles.container}>
@@ -174,7 +174,7 @@ export const Startups = ({ className }: StartupsProps) => {
           <h1 className={styles.title}>FAQs</h1>
           <p className={styles.paragraph}>
             Explore answers to commonly asked questions about investing with
-            Earthmates.
+            EarthMates.
           </p>
         </div>
         <div
@@ -188,10 +188,10 @@ export const Startups = ({ className }: StartupsProps) => {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              How can I list my startup on Earthmates?
+              How can I list my startup on EarthMates?
             </AccordionSummary>
             <AccordionDetails>
-              Listing your startup on Earthmates is easy. Simply sign up for an
+              Listing your startup on EarthMates is easy. Simply sign up for an
               account as a founder, complete your startup profile with relevant
               information about your project, and submit it for review. Our team
               will then evaluate your submission and notify you once your
@@ -205,10 +205,10 @@ export const Startups = ({ className }: StartupsProps) => {
               aria-controls="panel2a-content"
               id="panel2a-header"
             >
-              What criteria does Earthmates use to select startups for listing?
+              What criteria does EarthMates use to select startups for listing?
             </AccordionSummary>
             <AccordionDetails>
-              Earthmates uses a set of criteria including the uniqueness of the
+              EarthMates uses a set of criteria including the uniqueness of the
               idea, market potential, team strength, and sustainability impact
               to select startups for listing.
             </AccordionDetails>
@@ -220,10 +220,10 @@ export const Startups = ({ className }: StartupsProps) => {
               aria-controls="panel3a-content"
               id="panel3a-header"
             >
-              Is there a fee for listing my startup on Earthmates?
+              Is there a fee for listing my startup on EarthMates?
             </AccordionSummary>
             <AccordionDetails>
-              The listing of your startup on Earthmates is free of charge. We
+              The listing of your startup on EarthMates is free of charge. We
               are committed to providing entrepreneurs with a platform to
               showcase their innovations without any initial costs.
             </AccordionDetails>
@@ -235,20 +235,20 @@ export const Startups = ({ className }: StartupsProps) => {
               aria-controls="panel4a-content"
               id="panel4a-header"
             >
-              How can I attract investors to my startup profile on Earthmates?
+              How can I attract investors to my startup profile on EarthMates?
             </AccordionSummary>
             <AccordionDetails>
               To attract investors, ensure your startup profile is complete and
               compelling. Highlight key aspects such as your business model,
               market potential, traction, and team expertise. Engage with the
-              Earthmates community and participate in events and pitch sessions.
+              EarthMates community and participate in events and pitch sessions.
             </AccordionDetails>
           </Accordion>
         </div>
       </div>
       <div className={styles.next_steps}>
         <h1>Are you ready to take the next step?</h1>
-        <p>Join Earthmates Today and Propel Your Startup Forward!</p>
+        <p>Join EarthMates Today and Propel Your Startup Forward!</p>
         <Button buttonText="Register Now" color="#ffff" textColor="#001B2E" />
       </div>
     </div>

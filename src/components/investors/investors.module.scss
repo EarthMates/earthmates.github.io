@@ -254,11 +254,11 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  column-gap: 4em;
+  gap: 4em;
   margin-bottom: 5em;
   @media (max-width: 1050px) {
     margin-bottom: 2em;
-    column-gap: 2em;
+    gap: 2em;
   }
 }
 
@@ -270,11 +270,10 @@
 }
 
 .review .header .p {
-  font-family: Helvetica, sans-serif;
-  font-size: 1em;
+  font-family: $paragraph-font;
+  font-size: 1.2em;
   font-weight: 300;
   color: #4a555c;
-  margin-top: 2em;
   width: 50%;
 }
 
