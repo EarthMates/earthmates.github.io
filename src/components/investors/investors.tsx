@@ -41,6 +41,7 @@ export const Investors = ({ className }: InvestorsProps) => {
               window.location.href =
                 "https://airtable.com/app4cbS0gpcBdM29E/pagbVdxAymMAqVyAV/form";
             }}
+            size="large"
           />
         </div>
         <img src={InvestorImage} alt="" />
@@ -79,6 +80,7 @@ export const Investors = ({ className }: InvestorsProps) => {
           </div>
           <div className={styles.button}>
             <Button
+              size="large"
               buttonText="Register Now"
               color="#ffff"
               textColor="#0b0b09"
@@ -256,6 +258,7 @@ export const Investors = ({ className }: InvestorsProps) => {
         <h1>Are you ready to take the next step?</h1>
         <p>Join EarthMates Today and Propel Your Investment Forward!</p>
         <Button
+          size="large"
           buttonText="Register Now"
           color="#ffff"
           textColor="#001B2E"

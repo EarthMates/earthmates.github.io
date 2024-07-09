@@ -61,7 +61,7 @@ export const HomePage = ({ className }: HomePageProps) => {
           the world.
         </div>
         <div className={styles["call-to-action"]}>
-          <Button buttonText="Get Started" />
+          <Button buttonText="Get Started" size="large" />
         </div>
       </div>
       <div className={styles["cards-container"]}>
@@ -228,7 +228,7 @@ export const HomePage = ({ className }: HomePageProps) => {
               <p>you are a pre-seed or seed stage startup. </p>
             </div>
           </div>
-          <Button buttonText="Apply Now" />
+          <Button buttonText="Apply Now" size="large" />
         </div>
       </div>
 
@@ -360,6 +360,7 @@ export const HomePage = ({ className }: HomePageProps) => {
               when finding solutions to global problems.
             </p>
             <Button
+              size="large"
               buttonText="Register Now"
               color="#FFFFFF"
               textColor="#001B2E"
@@ -387,6 +388,7 @@ export const HomePage = ({ className }: HomePageProps) => {
               together to create a fairer, more sustainable world
             </p>
             <Button
+              size="large"
               buttonText="Register Now"
               color="#FFFFFF"
               textColor="#001B2E"
@@ -565,7 +567,7 @@ export const HomePage = ({ className }: HomePageProps) => {
         <h1 className={styles.h1}>Are you ready for the next step?</h1>
         <p className={styles.p}>We will help you along the journey!</p>
         <div className={styles["call-to-action"]}>
-          <Button buttonText="Get Started" />
+          <Button buttonText="Get Started" size="large" />
         </div>
       </div>
     </div>

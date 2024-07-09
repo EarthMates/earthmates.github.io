@@ -40,7 +40,7 @@ export const Startups = ({ className }: StartupsProps) => {
             Startups with global investors to unlock profits and create impact
             for the world
           </p>
-          <Button buttonText="Start Matching" />
+          <Button buttonText="Start Matching" size="large" />
         </div>
         <img src={StartupImagePng} alt="" />
       </div>
@@ -139,7 +139,7 @@ export const Startups = ({ className }: StartupsProps) => {
           </div>
         </div>
         <div className={styles.button}>
-          <Button buttonText="Create a Profile" />
+          <Button buttonText="Create a Profile" size="large" />
         </div>
       </div>
       <div className={styles.review}>
@@ -249,7 +249,12 @@ export const Startups = ({ className }: StartupsProps) => {
       <div className={styles.next_steps}>
         <h1>Are you ready to take the next step?</h1>
         <p>Join EarthMates Today and Propel Your Startup Forward!</p>
-        <Button buttonText="Register Now" color="#ffff" textColor="#001B2E" />
+        <Button
+          buttonText="Register Now"
+          color="#ffff"
+          textColor="#001B2E"
+          size="large"
+        />
       </div>
     </div>
   );

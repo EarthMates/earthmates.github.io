@@ -5,7 +5,7 @@
     padding-right: 6em;
     background-color: #0b0b09;
 
-    @media only screen and (max-width: $mobile-width) {
+    @media only screen and (max-width: 1400px) {
         padding-left: 1em;
         padding-right: 1em;
     }
@@ -19,6 +19,10 @@
     padding-top: 5em;
     padding-bottom: 4em;
     color: white;
+
+    @media only screen and (max-width: 1400px) {
+        column-gap: 5em;
+    }
 
     @media only screen and (max-width: $mobile-width) {
         flex-direction: column;
@@ -38,7 +42,7 @@
     column-gap: 10em;
     padding-right: 10em;
 
-    @media only screen and (max-width: $mobile-width) {
+    @media only screen and (max-width: 1400px) {
         padding: 2em;
         column-gap: 3em;
     }
@@ -130,7 +134,7 @@ input::placeholder {
     width: 30%;
     text-align: center;
 
-    @media only screen and (max-width: $mobile-width) {
+    @media only screen and (max-width: 1400px) {
         width: 80%;
     }
 }

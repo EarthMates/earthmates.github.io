@@ -14,6 +14,11 @@
   background-size: cover;
   background-attachment: scroll;
   background-image: url("/src/assets/landing_page/background_image.png");
+
+  @media only screen and (max-width: $mobile-width) {
+    flex-direction: column;
+    row-gap: 2em;
+}
 }
 
 .hero .title {

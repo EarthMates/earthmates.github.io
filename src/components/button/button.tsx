@@ -1,7 +1,6 @@
 import classNames from "classnames";
 import styles from "./button.module.scss";
 import React from "react";
-import { text } from "stream/consumers";
 
 export interface ButtonProps {
   className?: string;
@@ -9,6 +8,7 @@ export interface ButtonProps {
   onClick?: () => void;
   color?: string;
   textColor?: string;
+  size?: "small" | "large";
 }
 
 const defaultClick = () => {
@@ -22,14 +22,25 @@ export const Button: React.FC<ButtonProps> = ({
   onClick,
   color = "#ff8516", // Default color if not provided
   textColor = "#ffffff", // Default color if not provided
+  size = "small",
 }: ButtonProps) => {
   const handleClick = onClick || defaultClick;
+
+  // Set the style based on the size prop
+  const buttonStyle = {
+    backgroundColor: color,
+    color: textColor,
+    width: size === "large" ? "10em" : "8em",
+    height: size === "large" ? "3.5em" : "2.5em",
+    lineHeight: size === "large" ? "3.5em" : "2.5em",
+    fontWeight: size === "large" ? "600" : "500",
+  };
 
   return (
     <div
       className={classNames(styles.root, className)}
       onClick={handleClick}
-      style={{ backgroundColor: color, color: textColor }}
+      style={buttonStyle}
     >
       {buttonText}
     </div>

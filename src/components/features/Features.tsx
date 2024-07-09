@@ -97,7 +97,11 @@ const Features = () => {
           </div>
         </div> */}
 
-        <Button buttonText="Learn More" className={styles.learnMore_button} />
+        <Button
+          size="large"
+          buttonText="Learn More"
+          className={styles.learnMore_button}
+        />
       </div>
       <div className={`${styles.features} ${styles.features_investor}`}>
         <h1 className={styles.h1}>Looking to invest?</h1>
@@ -140,6 +144,7 @@ const Features = () => {
         </div> */}
 
         <Button
+          size="large"
           buttonText="Learn More"
           className={styles.learnMore_button}
           color="#2F2B6F"

@@ -21,7 +21,7 @@ export const Header = ({ className }: HeaderProps) => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 907);
+      setIsMobile(window.innerWidth <= 800);
     };
 
     handleResize();
