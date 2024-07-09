@@ -32,7 +32,7 @@ export const Investors = ({ className }: InvestorsProps) => {
           <h1>INVEST IN AFRICA'S FUTURE WITH CONFIDENCE</h1>
           <p>
             Discover Lucrative Investment Opportunities and Drive Positive
-            Change with Earthmates
+            Change with EarthMates
           </p>
           <Button
             buttonText="Start Investing"
@@ -98,7 +98,7 @@ export const Investors = ({ className }: InvestorsProps) => {
               Get Access to Exclusive Investment Opportunities
             </h1>
             <p className={styles.p}>
-              Discover a world of investment potential with Earthmates. Join to
+              Discover a world of investment potential with EarthMates. Join to
               gain access to high-potential startups.
             </p>
           </div>
@@ -116,7 +116,7 @@ export const Investors = ({ className }: InvestorsProps) => {
             <img src={UsergroupIcon} alt="profile" />
             <h2 className={styles.h1}>Seamless Investing Experience</h2>
             <p className={styles.p}>
-              Whether you're a seasoned investor or new to investing, Earthmates
+              Whether you're a seasoned investor or new to investing, EarthMates
               makes it easy to navigate the world of venture capital and
               maximize your investment potential.
             </p>
@@ -125,7 +125,7 @@ export const Investors = ({ className }: InvestorsProps) => {
             <img src={FilevalidationIcon} alt="profile" />
             <h2 className={styles.h1}>Expand Your Network</h2>
             <p className={styles.p}>
-              Joining Earthmates allows you to expand your network within the
+              Joining EarthMates allows you to expand your network within the
               global investment community and connect with like-minded
               individuals.
             </p>
@@ -139,7 +139,7 @@ export const Investors = ({ className }: InvestorsProps) => {
           </h1>
           <p className={styles.p}>
             Discover firsthand experiences from tech founders who have
-            transformed their startup journeys with Earthmates.
+            transformed their startup journeys with EarthMates.
           </p>
         </div>
         <div className={styles.container}>
@@ -166,7 +166,7 @@ export const Investors = ({ className }: InvestorsProps) => {
           <h1 className={styles.title}>FAQs</h1>
           <p className={styles.paragraph}>
             Explore answers to commonly asked questions about investing with
-            Earthmates.
+            EarthMates.
           </p>
         </div>
         <div
@@ -180,10 +180,10 @@ export const Investors = ({ className }: InvestorsProps) => {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              How can I find investment opportunities on Earthmates?
+              How can I find investment opportunities on EarthMates?
             </AccordionSummary>
             <AccordionDetails>
-              Investors can discover investment opportunities on Earthmates by
+              Investors can discover investment opportunities on EarthMates by
               browsing through curated profiles of African startups. Our
               platform offers a wide range of projects across various
               industries, allowing investors to explore opportunities that align
@@ -197,11 +197,11 @@ export const Investors = ({ className }: InvestorsProps) => {
               aria-controls="panel2a-content"
               id="panel2a-header"
             >
-              What criteria does Earthmates use to match investors with
+              What criteria does EarthMates use to match investors with
               startups?
             </AccordionSummary>
             <AccordionDetails>
-              Earthmates matches investors with startups based on several
+              EarthMates matches investors with startups based on several
               criteria including the investor's preferences, risk tolerance,
               investment goals, industry focus, geographic location, and the
               startup's stage of development, market potential, and alignment
@@ -215,7 +215,7 @@ export const Investors = ({ className }: InvestorsProps) => {
               aria-controls="panel3a-content"
               id="panel3a-header"
             >
-              Are there any fees associated with using Earthmates as an
+              Are there any fees associated with using EarthMates as an
               investor?
             </AccordionSummary>
             <AccordionDetails>
@@ -234,7 +234,7 @@ export const Investors = ({ className }: InvestorsProps) => {
               aria-controls="panel4a-content"
               id="panel4a-header"
             >
-              How does Earthmates ensure the quality and legitimacy of the
+              How does EarthMates ensure the quality and legitimacy of the
               investment opportunities listed on the platform?
             </AccordionSummary>
             <AccordionDetails>
@@ -254,7 +254,7 @@ export const Investors = ({ className }: InvestorsProps) => {
       </div>
       <div className={styles.next_steps}>
         <h1>Are you ready to take the next step?</h1>
-        <p>Join Earthmates Today and Propel Your Investment Forward!</p>
+        <p>Join EarthMates Today and Propel Your Investment Forward!</p>
         <Button
           buttonText="Register Now"
           color="#ffff"
