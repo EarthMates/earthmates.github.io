@@ -173,7 +173,6 @@
   font-family: $header-font;
   font-size: 40px;
   font-weight: 600;
-  padding: 0 1em;
 }
 
 .display .p {
@@ -183,7 +182,7 @@
   width: 100%;
   color: #4a555c;
   margin-bottom: 1em;
-  padding: 0 4em;
+
   @media (max-width: $mobile-width) {
     margin-bottom: 2em;
   }
@@ -223,10 +222,7 @@
   justify-content: center;
   text-align: start;
   column-gap: 3em;
-  padding-top: 3.5em;
-  padding-bottom: 3.5em;
-  padding-left: 3.5em;
-  padding-right: 0em;
+  padding: 4em;
   background-color: #ff8516;
   color: #001b2e;
   width: 100%;
