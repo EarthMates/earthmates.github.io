@@ -217,7 +217,7 @@ export const HomePage = ({ className }: HomePageProps) => {
             </div>
             <div className={styles.criterion}>
               <img src={requirementIcon5} alt="icon" />
-              <p>uou must have solid financials</p>
+              <p>you must have solid financials</p>
             </div>
             <div className={styles.criterion}>
               <img src={requirementIcon6} alt="icon" />
