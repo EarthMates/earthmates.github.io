@@ -20,6 +20,8 @@ import FilipePng from "../../assets/landing_page/iflipe.jpg";
 import DanielPng from "../../assets/landing_page/adniel.jpg";
 import GhelaPng from "../../assets/landing_page/ghela.jpg";
 import AdePng from "../../assets/landing_page/dea.jpg";
+import OmarPng from "../../assets/landing_page/Omar.png";
+import ArnoldPng from "../../assets/landing_page/arnold.png";
 import Features from "../features/Features";
 
 // * new div: "requirements"
@@ -554,6 +556,40 @@ export const HomePage = ({ className }: HomePageProps) => {
                   style={{ cursor: "pointer" }}
                   onClick={linkedinClick(
                     "https://www.linkedin.com/in/ujohdaniel1696211aa/"
+                  )}
+                />
+              </div>
+            </div>
+            <div className={styles.member}>
+              <img src={OmarPng} alt="" />
+              <div className={styles.description}>
+                <div className={styles.name}>
+                  <h1 className={styles.h1}>Omar Hanafi</h1>
+                  <p className={styles.p}>Investors Network Builder</p>
+                </div>
+                <img
+                  src={LinkedinIcon}
+                  alt="linkedin"
+                  style={{ cursor: "pointer" }}
+                  onClick={linkedinClick(
+                    "https://www.linkedin.com/in/hanafiomar/ "
+                  )}
+                />
+              </div>
+            </div>
+            <div className={styles.member}>
+              <img src={ArnoldPng} alt="" />
+              <div className={styles.description}>
+                <div className={styles.name}>
+                  <h1 className={styles.h1}>Arnold Muwanguzi</h1>
+                  <p className={styles.p}>Corporate filmmaker </p>
+                </div>
+                <img
+                  src={LinkedinIcon}
+                  alt="linkedin"
+                  style={{ cursor: "pointer" }}
+                  onClick={linkedinClick(
+                    "https://www.linkedin.com/in/arnold-muwanguzi-41aa74150/"
                   )}
                 />
               </div>
