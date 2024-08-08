@@ -523,7 +523,7 @@ export const HomePage = ({ className }: HomePageProps) => {
                 style={{
                   backgroundImage: `url(${FilipePng})`,
                   backgroundSize: "cover",
-                  backgroundPosition: "0 20%",
+                  backgroundPosition: "50% 20%",
                   backgroundRepeat: "no-repeat",
                   width: "100%",
                   height: "18em",
