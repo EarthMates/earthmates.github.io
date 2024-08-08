@@ -16,12 +16,13 @@ import LinkedinIcon from "../../assets/landing_page/linkedin.svg";
 import Button_module from "../button/button.module.scss";
 import MarcoPng from "../../assets/landing_page/marco.png";
 import MohamedPng from "../../assets/landing_page/mohamed.png";
-import FilipePng from "../../assets/landing_page/iflipe.jpg";
+import FilipePng from "../../assets/landing_page/iflipe.png";
 import DanielPng from "../../assets/landing_page/adniel.jpg";
 import GhelaPng from "../../assets/landing_page/ghela.jpg";
 import AdePng from "../../assets/landing_page/dea.jpg";
 import OmarPng from "../../assets/landing_page/Omar.png";
 import ArnoldPng from "../../assets/landing_page/arnold.png";
+import owenPng from "../../assets/landing_page/owenPNG.png";
 import Features from "../features/Features";
 
 // * new div: "requirements"
@@ -440,7 +441,16 @@ export const HomePage = ({ className }: HomePageProps) => {
           </p>
           <div className={styles["team-members"]}>
             <div className={styles.member}>
-              <img src={MarcoPng} alt="" />
+              <div
+                style={{
+                  backgroundImage: `url(${MarcoPng})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  width: "100%",
+                  height: "18em",
+                }}
+              ></div>
               <div className={styles.description}>
                 <div className={styles.name}>
                   <h1 className={styles.h1}>Marco Maiworm</h1>
@@ -457,7 +467,16 @@ export const HomePage = ({ className }: HomePageProps) => {
               </div>
             </div>
             <div className={styles.member}>
-              <img src={MohamedPng} alt="" />
+              <div
+                style={{
+                  backgroundImage: `url(${MohamedPng})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  width: "100%",
+                  height: "18em",
+                }}
+              ></div>
               <div className={styles.description}>
                 <div className={styles.name}>
                   <h1 className={styles.h1}>Mohamed Karsan</h1>
@@ -474,7 +493,16 @@ export const HomePage = ({ className }: HomePageProps) => {
               </div>
             </div>
             <div className={styles.member}>
-              <img src={JacopoPng} alt="" />
+              <div
+                style={{
+                  backgroundImage: `url(${JacopoPng})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  width: "100%",
+                  height: "18em",
+                }}
+              ></div>
               <div className={styles.description}>
                 <div className={styles.name}>
                   <h1 className={styles.h1}>Jacopo Ceravolo</h1>
@@ -491,7 +519,16 @@ export const HomePage = ({ className }: HomePageProps) => {
               </div>
             </div>
             <div className={styles.member}>
-              <img src={FilipePng} alt="" />
+              <div
+                style={{
+                  backgroundImage: `url(${FilipePng})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "0 20%",
+                  backgroundRepeat: "no-repeat",
+                  width: "100%",
+                  height: "18em",
+                }}
+              ></div>
               <div className={styles.description}>
                 <div className={styles.name}>
                   <h1 className={styles.h1}>Filipe Bertolucci</h1>
@@ -508,9 +545,45 @@ export const HomePage = ({ className }: HomePageProps) => {
               </div>
             </div>
           </div>
+
           <div className={styles["team-members"]}>
             <div className={styles.member}>
-              <img src={GhelaPng} alt="" />
+              <div
+                style={{
+                  backgroundImage: `url(${owenPng})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  width: "100%",
+                  height: "18em",
+                }}
+              ></div>
+              <div className={styles.description}>
+                <div className={styles.name}>
+                  <h1 className={styles.h1}> Owen Yhaan Ganza</h1>
+                  <p className={styles.p}>Front-End Developer</p>
+                </div>
+                <img
+                  src={LinkedinIcon}
+                  alt="linkedin"
+                  style={{ cursor: "pointer" }}
+                  onClick={linkedinClick(
+                    "https://www.linkedin.com/in/owen-yhaan-ganza/"
+                  )}
+                />
+              </div>
+            </div>
+            <div className={styles.member}>
+              <div
+                style={{
+                  backgroundImage: `url(${GhelaPng})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  width: "100%",
+                  height: "18em",
+                }}
+              ></div>
               <div className={styles.description}>
                 <div className={styles.name}>
                   <h1 className={styles.h1}>Francesco Ghelardi</h1>
@@ -527,7 +600,16 @@ export const HomePage = ({ className }: HomePageProps) => {
               </div>
             </div>
             <div className={styles.member}>
-              <img src={AdePng} alt="" />
+              <div
+                style={{
+                  backgroundImage: `url(${AdePng})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  width: "100%",
+                  height: "18em",
+                }}
+              ></div>
               <div className={styles.description}>
                 <div className={styles.name}>
                   <h1 className={styles.h1}>Adedigba Adediwura</h1>
@@ -544,7 +626,16 @@ export const HomePage = ({ className }: HomePageProps) => {
               </div>
             </div>
             <div className={styles.member}>
-              <img src={DanielPng} alt="" />
+              <div
+                style={{
+                  backgroundImage: `url(${DanielPng})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  width: "100%",
+                  height: "18em",
+                }}
+              ></div>
               <div className={styles.description}>
                 <div className={styles.name}>
                   <h1 className={styles.h1}>Daniel Ujoh</h1>
@@ -560,8 +651,19 @@ export const HomePage = ({ className }: HomePageProps) => {
                 />
               </div>
             </div>
+          </div>
+          <div className={styles["team-members"]}>
             <div className={styles.member}>
-              <img src={OmarPng} alt="" />
+              <div
+                style={{
+                  backgroundImage: `url(${OmarPng})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  width: "100%",
+                  height: "18em",
+                }}
+              ></div>
               <div className={styles.description}>
                 <div className={styles.name}>
                   <h1 className={styles.h1}>Omar Hanafi</h1>
@@ -578,7 +680,16 @@ export const HomePage = ({ className }: HomePageProps) => {
               </div>
             </div>
             <div className={styles.member}>
-              <img src={ArnoldPng} alt="" />
+              <div
+                style={{
+                  backgroundImage: `url(${ArnoldPng})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  width: "100%",
+                  height: "18em",
+                }}
+              ></div>
               <div className={styles.description}>
                 <div className={styles.name}>
                   <h1 className={styles.h1}>Arnold Muwanguzi</h1>
