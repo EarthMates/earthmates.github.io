@@ -17,6 +17,7 @@ import Button_module from "../button/button.module.scss";
 import MarcoPng from "../../assets/landing_page/marco.png";
 import MohamedPng from "../../assets/landing_page/mohamed.png";
 import FilipePng from "../../assets/landing_page/iflipe.png";
+import AnamariaPng from "../../assets/landing_page/anamaria.jpg";
 import DanielPng from "../../assets/landing_page/adniel.jpg";
 import GhelaPng from "../../assets/landing_page/ghela.jpg";
 import AdePng from "../../assets/landing_page/dea.jpg";
@@ -523,6 +524,35 @@ export const HomePage = ({ className }: HomePageProps) => {
             <div className={styles.member}>
               <div
                 style={{
+                  backgroundImage: `url(${AnamariaPng})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "50% 20%",
+                  backgroundRepeat: "no-repeat",
+                  width: "100%",
+                  height: "18em",
+                }}
+              ></div>
+              <div className={styles.description}>
+                <div className={styles.name}>
+                  <h1 className={styles.h1}>Anamaria Meshkurti</h1>
+                  <p className={styles.p}>Board Member</p>
+                </div>
+                <img
+                  src={LinkedinIcon}
+                  alt="linkedin"
+                  style={{ cursor: "pointer" }}
+                  onClick={linkedinClick(
+                    "https://www.linkedin.com/in/anamaria-meshkurti"
+                  )}
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className={styles["team-members"]}>
+            <div className={styles.member}>
+              <div
+                style={{
                   backgroundImage: `url(${FilipePng})`,
                   backgroundSize: "cover",
                   backgroundPosition: "50% 20%",
@@ -546,9 +576,6 @@ export const HomePage = ({ className }: HomePageProps) => {
                 />
               </div>
             </div>
-          </div>
-
-          <div className={styles["team-members"]}>
             <div className={styles.member}>
               <div
                 style={{
@@ -627,6 +654,8 @@ export const HomePage = ({ className }: HomePageProps) => {
                 />
               </div>
             </div>
+          </div>
+          <div className={styles["team-members"]}>
             <div className={styles.member}>
               <div
                 style={{
@@ -653,8 +682,6 @@ export const HomePage = ({ className }: HomePageProps) => {
                 />
               </div>
             </div>
-          </div>
-          <div className={styles["team-members"]}>
             <div className={styles.member}>
               <div
                 style={{
